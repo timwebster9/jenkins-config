@@ -4,7 +4,7 @@ pipelineJob("gradle-gatling") {
            scm {
                git {
                    remote {
-                       url('https://github.com/timwebster9/gradle-gatling/gitlab-pipeline-test.git')
+                       url('https://github.com/timwebster9/gradle-gatling.git')
                    }
                    branch('master')
                }
