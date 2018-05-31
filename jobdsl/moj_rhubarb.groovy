@@ -10,7 +10,7 @@ pipelineJob("moj-rhubarb") {
                    branch('master')
                }
            }
-           scriptPath('Jenkinsfile')
+           scriptPath('Jenkinsfile_CNP')
        }
    }
 }
