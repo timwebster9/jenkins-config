@@ -9,7 +9,7 @@ pipelineJob("gatling-test") {
                    branch('master')
                }
            }
-           scriptPath('Jenkinsfile.gatling')
+           scriptPath('Jenkinsfile.scripted')
        }
    }
 }
