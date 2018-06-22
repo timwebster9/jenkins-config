@@ -1,10 +1,10 @@
-pipelineJob("gatling-test") {
+pipelineJob("sandbox-scripted") {
    definition {
        cpsScm {
            scm {
                git {
                    remote {
-                       url('https://github.com/timwebster9/gradle-gatling.git')
+                       url('https://github.com/timwebster9/jenkinsfile-sandbox.git')
                    }
                    branch('master')
                }

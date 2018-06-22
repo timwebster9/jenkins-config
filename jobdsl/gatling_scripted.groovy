@@ -1,16 +1,15 @@
-pipelineJob("moj-rhubarb") {
+pipelineJob("gatling-scripted") {
    definition {
        cpsScm {
            scm {
                git {
                    remote {
-                       url('git@github.com:hmcts/moj-rhubarb-recipes-service.git')
-                       credentials('git')
+                       url('https://github.com/timwebster9/gradle-gatling.git')
                    }
                    branch('master')
                }
            }
-           scriptPath('Jenkinsfile_CNP')
+           scriptPath('Jenkinsfile.scripted')
        }
    }
 }
